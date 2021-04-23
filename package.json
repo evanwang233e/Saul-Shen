@@ -1,0 +1,27 @@
+{
+  "name": "generator-vue-bucket",
+  "version": "1.0.0",
+  "description": "a vue generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hokkaidosunny/generator-vue-bucket.git"
+  },
+  "keywords": [
+    "vue",
+    "yoman",
+    "generator"
+  ],
+  "author": "shenshuaijia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hokkaidosunny/generator-vue-bucket/issues"
+  },
+  "homepage": "https://github.com/Hokkaidosunny/generator-vue-bucket#readme",
+  "dependencies": {
+    "yeoman-generator": "^0.21.2"
+  }
+}
