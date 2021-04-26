@@ -1,11 +1,9 @@
 {
   "name": "generator-vue-bucket",
-  "version": "1.0.0",
-  "description": "a vue generator",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.0.1",
+  "description": "a vue generator (with vuex & vue-router)",
+  "main": "app/index.js",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hokkaidosunny/generator-vue-bucket.git"
@@ -13,7 +11,8 @@
   "keywords": [
     "vue",
     "yoman",
-    "generator"
+    "generator",
+    "yeoman-generator"
   ],
   "author": "shenshuaijia",
   "license": "ISC",
