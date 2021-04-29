@@ -1,4 +1,4 @@
-<style lang="css" src="../style/homepage.css"></style>
+<style lang="sass" src="../style/homepage.scss"></style>
 
 <template lang="html">
   <div>

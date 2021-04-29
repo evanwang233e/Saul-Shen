@@ -1,4 +1,4 @@
-<style lang="css" src="../style/counterpage.css"></style>
+<style lang="sass" src="../style/counterpage.scss"></style>
 
 <template lang="html">
   <div>
@@ -20,6 +20,11 @@
       ])
     },
     methods: {
+      /* there are two ways to dispatch action */
+    // ...mapActions([
+    //   'increaseCount',
+    //   'decreaseCount'// map this.increment() to this.$store.dispatch('increment')
+    // ]),
       increaseCount () {
         this.$store.dispatch('increaseCount');  //dispatch the name of the action function name
       },

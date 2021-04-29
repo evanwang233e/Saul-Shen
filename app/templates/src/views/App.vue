@@ -1,4 +1,4 @@
-<style lang="css" src="../style/app.css"></style>
+<style lang="sass" src="../style/app.scss"></style>
 
 <template lang="html">
   <div id="app">

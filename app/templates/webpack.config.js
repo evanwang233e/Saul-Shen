@@ -40,17 +40,15 @@ module.exports = {
   //开发环境推荐：‘cheap-module-eval-source-map’，生产环境推荐：’cheap-module-source-map’
 	devtool: config.devtool,
 	module: {
-		loaders: [
-      {
-        test: /\.(gif|jpg|png|woff|svg|eot|ttf)$/, loader: 'url-loader?limit=50000'
-      },
-      {
-        test: /\.js$/, loader: 'babel', exclude: /node_modules/
-      },
-      {
-        test: /\.vue$/, loader:'vue'
-      }
-		]
+		loaders: [{
+      test: /\.(gif|jpg|png|woff|svg|eot|ttf)$/, loader: 'url-loader?limit=50000'
+    }, {
+      test: /\.(eot|woff|woff2|svg|ttf)([\?]?.*)$/, loader: "file-loader"
+    }, {
+      test: /\.js$/, loader: 'babel', exclude: /node_modules/
+    }, {
+      test: /\.vue$/, loader:'vue'
+    }]
 	},
 	resolve: {
 		extensions: ['','.js','.vue','html'],
