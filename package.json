@@ -1,6 +1,6 @@
 {
   "name": "generator-vue-bucket",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a vue generator (with vuex & vue-router)",
   "main": "app/index.js",
   "scripts": {},

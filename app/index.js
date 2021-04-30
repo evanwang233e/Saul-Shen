@@ -12,5 +12,10 @@ module.exports = generators.Base.extend({
       this.destinationPath() //to
     );
 
+    /*write .babelrc*/
+    this.fs.writeJSON(this.destinationPath('.babelrc'), {
+      "presets": ["es2015", "stage-0"],
+      "plugins": ["transform-runtime"]
+    });
   }
 });
