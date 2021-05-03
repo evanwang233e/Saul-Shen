@@ -1,3 +1,7 @@
+## generator-vue-bucket
+
+[![Build Status](https://travis-ci.org/Hokkaidosunny/generator-vue-bucket.svg?branch=master)](https://travis-ci.org/Hokkaidosunny/generator-vue-bucket)
+
 #### Usage
 
 1. install yoman: `npm i -g yo`
@@ -18,3 +22,4 @@
 4. run the demo: `npm start`
 
 5. the demo is running at http://127.0.0.1:3000 
+
